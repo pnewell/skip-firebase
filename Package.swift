@@ -31,7 +31,7 @@ let package = Package(
         .package(url: "https://source.skip.tools/skip-foundation.git", from: "1.2.8"),
         .package(url: "https://source.skip.tools/skip-model.git", from: "1.4.2"),
         .package(url: "https://source.skip.tools/skip-ui.git", from: "1.17.2"),
-        .package(url: "https://github.com/pnewell/firebase-ios-sdk", branch: "main")
+        .package(url: "https://github.com/pnewell/firebase", branch: "main")
     ],
     targets: [
         .target(name: "SkipFirebaseCore", dependencies: [
